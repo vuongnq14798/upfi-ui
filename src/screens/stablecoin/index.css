@@ -1,0 +1,134 @@
+.stable-content {
+    max-width: 454px;
+    width: 100%;
+    margin: 50px auto;
+  }
+  
+  .stake-main {
+    max-width: 454px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #BDEDE7;
+  }
+  
+  .tabs {
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #BDEDE7;
+  }
+  
+  .tab {
+    margin-top: 16px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    color: #A2A2B5;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+  
+  }
+  
+  .tab-active {
+    border-bottom: 3px solid #04A96D;
+    color: #04A96D
+  }
+  
+  .input-amount {
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px 24px;
+  }
+  
+  .input-logo {
+    width: 24px;
+    height: 24px;
+    margin: 0 4px;
+    vertical-align: middle
+  }
+  
+  .input-top {
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  
+  .input-top>span:first-child {
+    color: #7A7A7A;
+    font-weight: 500;
+  }
+  
+  .input-top>span:nth-child(2) {
+    color: #18A1EE;
+    cursor: pointer;
+    font-weight: 500;
+  
+  }
+  
+  .input-number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .flex-max {
+    flex: 1;
+    margin-right: 8px;
+  }
+  
+  .half {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
+    color: #18A1EE;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .number-format {
+    background: transparent;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #080828;
+    border: none;
+    max-width: 200px;
+  
+    @media only screen and (max-width: 512px) {
+        max-width: 140px;
+    }
+  }
+  
+  .tab-content {
+    padding: 24px;
+  }
+  
+  .add-arrow-ic {
+    width: 30px;
+    margin: 12px auto;
+    display: block;
+  }
+  
+  .input-rate::before {
+    content: " \2022  "
+  
+  }
+  
+  .stable-fees {
+    margin-top: 24px;
+    color: #7A7A7A;
+    font-weight: 500;
+  }
+  
+  .stable-fees>div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
